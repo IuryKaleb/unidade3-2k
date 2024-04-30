@@ -9,7 +9,6 @@ public class TesteCarro2 {
         c2.solicitarInfo();
         c3.solicitarInfo();
         
-        
         c1.exibirInfo();
         c2.exibirInfo();
         c3.exibirInfo();
