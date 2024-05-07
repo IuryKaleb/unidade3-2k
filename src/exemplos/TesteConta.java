@@ -13,7 +13,9 @@ public class TesteConta {
             System.err.println("Saldo indisponível!!");;
         }
             System.out.println(saqueEfetuado);
-            System.out.println("Saldo: " + c.saldo);
+            System.out.println("Saldo: " + c.getSaldo());
+            System.out.println("Nome Titular: " + c.getNometitular());
+            System.out.println("Número da Conta: " + c.getNumero());
     }
 
 }
