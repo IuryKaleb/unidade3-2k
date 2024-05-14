@@ -5,6 +5,18 @@ public class Conta {
     private String nometitular = "Iury Kaleb";
     private double saldo;
     
+    public Conta(int numero, String nometitular, double saldo) {
+            this.numero = numero;
+            this.nometitular = nometitular;
+            this.saldo = saldo;
+    }
+    
+    public Conta(int numero, String nometitular) {
+        this.numero = numero;
+        this.nometitular = nometitular;
+        this.saldo = 0;
+    }
+    
     public void depositar (double valor) {
         this.saldo = this.saldo + valor;
     }

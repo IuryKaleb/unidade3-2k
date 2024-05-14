@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Teste2 {
 
         public static void main(String[] args) {
-            Conta c = new Conta();
+            Conta c = new Conta(123, "Kaleb", 1200);
             Scanner entrada = new Scanner(System.in);
             System.out.println("Digite o nome do titular da conta: ");
             c.setNomeTitular(entrada.next());
